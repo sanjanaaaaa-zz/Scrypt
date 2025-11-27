@@ -1,0 +1,29 @@
+{
+  "name": "scrypt-deployment",
+  "version": "1.0.0",
+  "description": "This branch is for deployment of scrypt",
+  "keywords": [
+    "mern",
+    "scrypt",
+    "journal",
+    "task",
+    "management",
+    "deployment"
+  ],
+  "homepage": "https://github.com/sanjanaaaaa-zz/scrypt#readme",
+  "bugs": {
+    "url": "https://github.com/sanjanaaaaa-zz/scrypt/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjanaaaaa-zz/scrypt.git"
+  },
+  "license": "ISC",
+  "author": "Sanjana",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix frontend && npm run build --prefix frontend && npm install --prefix backend",
+    "start": "npm start --prefix backend"
+  }
+}
