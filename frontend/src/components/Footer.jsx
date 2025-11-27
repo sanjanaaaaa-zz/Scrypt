@@ -3,7 +3,6 @@ const Footer = () => {
     <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4">
       <p>
         &copy; {new Date().getFullYear()} Scrypt | Created by Sanjana
-        Kumar
       </p>
     </footer>
   );
